@@ -1,0 +1,235 @@
+{
+  "HeroData": [
+    {
+      "imgSrc": "/images/banner/blogforgeCover.webp"
+    },
+    {
+      "imgSrc": "/images/banner/gleamerCover.webp"
+    },
+    {
+      "imgSrc": "/images/banner/learnaxisCover.webp"
+    },
+    {
+      "imgSrc": "/images/banner/studiovaCover.webp"
+    }
+  ],
+  "NavLinkData": [
+    {
+      "label": "Projects",
+      "href": "/#project"
+    },
+    {
+      "label": "Expertise",
+      "href": "/#expertise"
+    },
+    {
+      "label": "Pricing",
+      "href": "/#pricing"
+    },
+    {
+      "label": "Categories",
+      "href": "/#categories"
+    }
+  ],
+  "ProjectData": [
+    {
+      "coverImg": "/images/project/blogforge.webp",
+      "name": "Real Estate Platform"
+    },
+    {
+      "coverImg": "/images/project/gleamer.webp",
+      "name": "Web Development Projects"
+    },
+    {
+      "coverImg": "/images/project/learnaxis.webp",
+      "name": "IT Support Solutions"
+    },
+    {
+      "coverImg": "/images/project/studiova.webp",
+      "name": "Database Management"
+    },
+    {
+      "coverImg": "/images/project/homely.webp",
+      "name": "Customer Service Systems"
+    },
+    {
+      "coverImg": "/images/project/awake.webp",
+      "name": "C Programming Apps"
+    },
+    {
+      "coverImg": "/images/project/endeavor.webp",
+      "name": "Networking Projects"
+    }
+  ],
+  "RecordData": [
+    {
+      "imgSrc": "/images/records/star.svg",
+      "digit": "HTL 2026",
+      "desc": "Graduating from Austrian School 'Peter Mahringer' with focus on web development"
+    },
+    {
+      "imgSrc": "/images/records/user.svg",
+      "digit": "5+ Certifications",
+      "desc": "IT Support, Oracle Databases, HTML/CSS, C Programming, and more"
+    },
+    {
+      "imgSrc": "/images/records/cart.svg",
+      "digit": "Real Estate Platform",
+      "desc": "Developed using SvelteKit, MySQL, and Tailwind CSS"
+    },
+    {
+      "imgSrc": "/images/records/star.svg",
+      "digit": "Diverse Experience",
+      "desc": "IT Support, Customer Service, Hospitality roles"
+    }
+  ],
+  "ReviewData": [
+    {
+      "imgSrc": "/images/review/daniel.webp",
+      "name": "Refurbed Germany",
+      "rating": 4.5,
+      "desc": "Nedit provided excellent customer service, handling inquiries efficiently and resolving issues promptly."
+    },
+    {
+      "imgSrc": "/images/review/sophia.webp",
+      "name": "MAK Computers",
+      "rating": 4.8,
+      "desc": "His technical skills in hardware and software troubleshooting were invaluable to our team."
+    },
+    {
+      "imgSrc": "/images/review/marcus.webp",
+      "name": "Peter Mahringer School",
+      "rating": 4.9,
+      "desc": "A dedicated student with strong academic performance and a passion for web development."
+    }
+  ],
+  "SpecializeData": [
+    {
+      "imgSrc": "/images/specialization/webdesign.svg",
+      "title": "Web Development",
+      "desc": "Building modern, responsive websites using technologies like SvelteKit, HTML, CSS, and Tailwind CSS."
+    },
+    {
+      "imgSrc": "/images/specialization/logodesign.svg",
+      "title": "IT Support & Helpdesk",
+      "desc": "Providing technical support, troubleshooting hardware and software issues, and customer service."
+    },
+    {
+      "imgSrc": "/images/specialization/mobileapp.svg",
+      "title": "Database Management",
+      "desc": "Working with Oracle databases and MySQL for data management and backend development."
+    },
+    {
+      "imgSrc": "/images/specialization/contentwrite.svg",
+      "title": "C Programming",
+      "desc": "Developing applications and understanding low-level programming concepts."
+    },
+    {
+      "imgSrc": "/images/specialization/seooptimize.svg",
+      "title": "Networking & Troubleshooting",
+      "desc": "Handling networking issues, client inquiries, and logistical problem-solving."
+    },
+    {
+      "imgSrc": "/images/specialization/digitalmarketing.svg",
+      "title": "Customer Service",
+      "desc": "Experience in hospitality and customer-facing roles, enhancing communication and teamwork skills."
+    }
+  ],
+  "PlanData": [
+    {
+      "type": "Web Development",
+      "price": {
+        "monthly": 0,
+        "yearly": 0
+      },
+      "desc": "Building responsive websites and applications.",
+      "option": [
+        "SvelteKit, HTML, CSS, Tailwind CSS",
+        "Database integration with MySQL",
+        "Responsive design and optimization",
+        "Project consultation and planning"
+      ]
+    },
+    {
+      "type": "IT Support",
+      "price": {
+        "monthly": 0,
+        "yearly": 0
+      },
+      "desc": "Technical support and troubleshooting services.",
+      "option": [
+        "Hardware and software troubleshooting",
+        "Networking and system administration",
+        "Customer service and helpdesk",
+        "Problem-solving and resolution"
+      ]
+    }
+  ],
+  "CategoryData": [
+    {
+      "imgSrc": "/images/category/webdev.webp",
+      "title": "Web Development"
+    },
+    {
+      "imgSrc": "/images/category/logods.webp",
+      "title": "IT Support"
+    },
+    {
+      "imgSrc": "/images/category/mobileapp.webp",
+      "title": "Database Management"
+    },
+    {
+      "imgSrc": "/images/category/contentwrite.webp",
+      "title": "C Programming"
+    },
+    {
+      "imgSrc": "/images/category/digitalmarket.webp",
+      "title": "Customer Service"
+    }
+  ],
+  "FooterLinkData": [
+    {
+      "section": "Company",
+      "links": [
+        {
+          "label": "Projects",
+          "href": "/#project"
+        },
+        {
+          "label": "Expertise",
+          "href": "/#expertise"
+        },
+        {
+          "label": "Pricing",
+          "href": "/#pricing"
+        },
+        {
+          "label": "Categories",
+          "href": "/#categories"
+        }
+      ]
+    },
+    {
+      "section": "Support",
+      "links": [
+        {
+          "label": "Help center",
+          "href": "/"
+        },
+        {
+          "label": "Terms of service",
+          "href": "/"
+        },
+        {
+          "label": "Legal",
+          "href": "/"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "/"
+        }
+      ]
+    }
+  ]
+}
+

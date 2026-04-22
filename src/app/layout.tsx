@@ -1,0 +1,39 @@
+import type { Metadata } from 'next'
+import { DM_Sans } from 'next/font/google'
+import './globals.css'
+import Header from './components/Layout/Header'
+import { ThemeProvider } from 'next-themes'
+import Footer from './components/Layout/Footer'
+import ScrollToTop from './components/ScrollToTop'
+
+const DMSans = DM_Sans({
+  variable: '--font-DM-Sans',
+  subsets: ['latin'],
+})
+
+export const metadata: Metadata = {
+  title: 'Nedit Xhaferi - Portfolio',
+  description: 'Aspiring IT Professional specializing in web development, with experience in IT support, database management, and customer service.',
+}
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
+  return (
+    <html lang='en' suppressHydrationWarning>
+      <body className={`${DMSans.variable} antialiased dark:bg-darkmode`}>
+        <ThemeProvider
+          attribute='class'
+          enableSystem={false}
+          defaultTheme='light'>
+          <Header />
+          {children}
+          <Footer />
+          <ScrollToTop />
+        </ThemeProvider>
+      </body>
+    </html>
+  )
+}
