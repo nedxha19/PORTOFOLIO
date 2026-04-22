@@ -68,7 +68,7 @@ const Project = () => {
 
   return (
     <div id='project' className='scroll-mt-12'>
-      <section className='bg-secondary dark:bg-darklight overflow-hidden'>
+      <section className='bg-secondary dark:bg-darklight overflow-hidden' aria-label="Featured Projects Section">
         <div className='container relative'>
           <div className='mb-4'>
             <h2 className='text-center'>Popular Projects</h2>

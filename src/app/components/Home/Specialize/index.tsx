@@ -27,7 +27,7 @@ const Specialize = () => {
   }, [])
 
   return (
-    <section id='expertise' className='scroll-mt-12'>
+    <section id='expertise' className='scroll-mt-12' aria-label="My Expertise and Skills">
       <div className='container'>
         <div className='text-center mb-8'>
           <h2 className='mb-6'>My Expertise</h2>
